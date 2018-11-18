@@ -16,8 +16,8 @@ namespace Observer
 
         public void Display()
         {
-            Console.WriteLine("Television Device\n");
-            Console.WriteLine("Temperature:{0},Humditiy:{1},Pressure:{2}", temperature, humidity, pressure);
+            Console.WriteLine("Television Device");
+            Console.WriteLine("Temperature:{0},Humditiy:{1},Pressure:{2}\n", temperature, humidity, pressure);
         }
 
         public void Update(float temperature, float humidity, float pressure)
