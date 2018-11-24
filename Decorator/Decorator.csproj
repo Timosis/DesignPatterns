@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="HeroDecorator.cs" />
+    <Compile Remove="Hero.cs" />
+  </ItemGroup>
 </Project>
